@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.revernschedule" >
+
+    <uses-permission android:name="android.permission.READ_CALENDAR" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+
+            android:screenOrientation="portrait"
+            android:name=".MenuActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".CalendarActivity"
+            android:label="@string/title_activity_calendar" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".ScheduleActivity"
+            android:label="@string/title_activity_schedule" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".CreateActivity"
+            android:label="@string/title_activity_create" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".TodayActivity"
+            android:label="@string/title_activity_today" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".AddingActionActivity"
+            android:label="@string/title_activity_adding_action" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".ColorActivity"
+            android:label="@string/title_activity_color" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".SetPatternActivity"
+            android:label="@string/title_activity_set_pattern" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".ChooseDayActivity"
+            android:label="@string/title_activity_choose_day" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".DayViewActivity"
+            android:label="@string/title_activity_day_view" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".ColorChooseActivity"
+            android:label="@string/title_activity_color_choose" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@color/fab_material_white"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MenuActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:text="Revern"
+        android:textColor="@color/cyan_300"
+        android:textSize="48dp"
+        android:textStyle="italic"
+        android:gravity="bottom"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:text="Schedule"
+        android:textColor="@color/cyan_300"
+        android:textSize="48dp"
+        android:textStyle="italic"
+        android:gravity="right"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/today_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:textColor="@color/fab_material_white"
+        android:layout_margin="4dp"
+        android:text="Today"
+        android:background="@color/cyan_300"
+        android:textSize="24dp"
+        />
+
+    <Button
+        android:id="@+id/calendar_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:layout_margin="4dp"
+        android:textColor="@color/fab_material_white"
+        android:background="@color/cyan_300"
+        android:text="Calendar"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/schedule_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:textColor="@color/fab_material_white"
+        android:layout_margin="4dp"
+        android:text="Schedule"
+        android:background="@color/cyan_300"
+        android:textSize="24dp"/>
+
+
+</LinearLayout>

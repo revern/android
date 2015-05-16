@@ -1,0 +1,56 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/fab_material_white"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/add_action_add_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:background="@drawable/ic_check_grey600_48dp"/>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.revernschedule.AddingActionActivity">
+
+    <TextView
+        android:id="@+id/start_time"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_marginRight="36dp"
+        android:inputType="date"
+        android:text="Set start time"
+        android:textSize="24dp"/>
+    <TextView
+        android:id="@+id/finish_time"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:inputType="date"
+        android:text="Set finish time"
+        android:textSize="24dp"/>
+    <EditText
+        android:id="@+id/main_action"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:inputType="textCapSentences"
+        android:hint="Main action"/>
+    <EditText
+        android:id="@+id/sub_action"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:inputType="textCapSentences"
+        android:hint="Sub action"/>
+
+</LinearLayout>
+</RelativeLayout>
